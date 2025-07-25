@@ -8,7 +8,7 @@ API_HASH = environ.get("API_HASH", "ad1257b0704ddbd536a0a11723fbdc4f")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8124166210:AAHMwGv0daJbeYaqKcB_4f2RZp_QxWU6dDg")
 
 OWNER = int(environ.get("OWNER", "7974296882"))
-CREDIT = environ.get("CREDIT", "KARTHIK")
+CREDIT = environ.get("CREDIT", "@KRTKx")
 
 TOTAL_USER = os.environ.get('TOTAL_USERS', '7974296882').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
