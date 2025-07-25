@@ -72,8 +72,8 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://i.ibb.co/s9rtsJ0x/temp.jpg",
+    "https://i.ibb.co/s9rtsJ0x/temp.jpg",
     # Add more image URLs as needed
 ]
 
@@ -489,7 +489,7 @@ async def start(bot, m: Message):
     caption = f"🌟 Welcome {m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
+        photo="https://i.ibb.co/s9rtsJ0x/temp.jpg",
         caption=caption
     )
 
